@@ -1,9 +1,9 @@
 
 from pathlib import Path
 from typing import Protocol, List, Type, Dict, Optional
-from track_class import Track
-from make_tracks import generate_track_list
-from read_csv import read_file_color
+from .track_class import Track
+from .make_tracks import generate_track_list
+from .read_csv import read_file_color
 
 REF_GENE_PANEL = """
     <Panel height="100" name="FeaturePanel" width="1640">

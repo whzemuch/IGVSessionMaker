@@ -1,7 +1,7 @@
 from pathlib import Path
-from track_class import Track, BedTrack, BigWigTrack, GTfTrack
+from .track_class import Track, BedTrack, BigWigTrack, GTfTrack
 from typing import   List, Type, Dict, Optional
-from read_csv import read_file_color
+from .read_csv import read_file_color
 
 # Track class mapping configuration
 TRACK_CLASS_MAPPING: Dict[str, Type[Track]] = {
