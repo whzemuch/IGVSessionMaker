@@ -14,5 +14,5 @@ setup(
     description="A package to generate IGV session files from CSV",
     license="MIT", # or other licenses you prefer
     keywords="igv xml bioinformatics",
-    url="https://github.com/whzemuch/IGVSessionMaker/tree/main",  # If you host your code on GitHub or another site
+    url="https://github.com/whzemuch/IGVSessionMaker",  # If you host your code on GitHub or another site
 )

@@ -1,0 +1,3 @@
+*.xml
+.pytest_cache/
+
